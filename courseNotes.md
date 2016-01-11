@@ -31,18 +31,10 @@ git checkout branch                    # Cambiar hacia un branch
 
 
 __Secuencias para sincronizar__
-_Opcion 1_
 <pre>
 git checkout week2
 git pull origin master
 git push origin week2
 git checkout master
 git pull origin week2 
-</pre>
-_Opcion 2_
-<pre>
-git checkout master
-git pull origin master
-git merge week2
-git push origin master
 </pre>

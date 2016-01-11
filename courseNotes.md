@@ -46,3 +46,23 @@ git pull origin master
 git merge week2
 git push origin master
 </pre>
+
+### R Packaging
+
+Comandos basicos para manejar paquetes desde R. Estas funciones pueden realizarse desde rstudio tambien.
+<pre>
+install.packages( pkgs= "<name_of_the_package>" )             # Instalar un paquete
+update.packages("<Name_of_a_package>")                        # Actualizar
+install.packages( pkgs= c("<name_of_the_package>","dos") )    # Instalar un paquete
+library("<Name_of_a_package>")                                # Cargar un paquete
+require("<Name_of_a_package>")                                # Requerir un paquete
+</pre>
+
+Como obtener ayuda
+<pre>
+help.start()  #Loads an HTML help page in the browser
+help( <Name_of_a_package_or_function> )  #Provides documentation for the requested package or function
+? <Name_of_a_package_or_function> #Provides documentation for the requested package or function
+help.search( "<keyword>" )   #Searches help documents for the <keyword>
+?? <keyword>   #Searches help documents for the <keyword>
+</pre>

@@ -31,7 +31,6 @@ git checkout branch                    # Cambiar hacia un branch
 
 
 __Secuencias para sincronizar__
-_Opcion 1_
 <pre>
 git checkout week2
 git pull origin master
@@ -39,6 +38,7 @@ git push origin week2
 git checkout master
 git pull origin week2 
 </pre>
+<<<<<<< HEAD
 _Opcion 2_
 <pre>
 git checkout master
@@ -66,3 +66,5 @@ help( <Name_of_a_package_or_function> )  #Provides documentation for the request
 help.search( "<keyword>" )   #Searches help documents for the <keyword>
 ?? <keyword>   #Searches help documents for the <keyword>
 </pre>
+=======
+>>>>>>> b21581a34ed1717383cf678866415edb907137e2
